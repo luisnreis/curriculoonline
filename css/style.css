@@ -1,3 +1,19 @@
 .fundo_nav{
     background-color: #db0faf;
 }
+
+.icon{
+    width: 30%;
+}
+
+.prof{
+    border-radius: 100px;
+}
+
+.fundo_sob{
+    background-color: slateblue;
+}
+
+p, h1, h2, h3, h4, h5, h6{
+    font-family: 'M PLUS 1', sans-serif;
+}
