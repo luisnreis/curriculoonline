@@ -7,7 +7,7 @@ html{
 }
 
 .icon{
-    width: 30%;
+    width: 100px;
 }
 
 .prof{
@@ -31,13 +31,13 @@ p, h1, h2, h3, h4, h5, h6{
 }
 
 .imggaleria{
-    width: 30%;
+    width: 300px;
     border-radius: 20px;
     transition: width 1s, height 1s;
 }
 
 .imggaleria:hover{
-    width: 35%;
+    width: 350px;
 }
 
 .prints{
