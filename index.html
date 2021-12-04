@@ -13,8 +13,8 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@300&family=M+PLUS+1:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@300&family=M+PLUS+1:wght@300&display=swap" rel="stylesheet">
 
   <title>yessir!!</title>
 </head>
@@ -23,7 +23,7 @@
   <nav class="navbar navbar-expand-lg navbar-light fundo_nav">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <img src="img/avatar.jpg" alt="" width="500" height="500">
+        <img src="img/eu.jpeg" alt="" width="50" height="50">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -107,22 +107,25 @@
     </button>
   </div>
 
-  <div class="container">
-    <section id="sobre" class="fundo_sob">
+
+  <div class="fundo_sob container-fluid">
+    <section id="sobre">
       <div class="row">
-        <h1 class="text-center">Sobre</h1>
+        <h1 class="text-center">Quem eu sou?</h1>
       </div>
       <br>
       <div class="row">
         <div class="col-md-5">
-          <p>Oba, tranquilo? Me chamo Luís, tenho 16 anos, e estudo na Etec MCM (Maria Cristina Medeiros). Faço o curso técnico de Informática para Internet, atualmente cursando o 1° ano.</p>
-          <p>Sempre me interessei pela Informática e coisas relacionadas. Espero desfrutar o máximo desse curso que escolhi e que possa me profissionalizar nessa área.</p>
+          <p class="text-center">Oba, tranquilo? Me chamo Luís, tenho 16 anos, e estudo na Etec MCM (Maria Cristina Medeiros). Faço o curso técnico de Informática para Internet, atualmente cursando o 1° ano.</p>
+          <p class="text-center">Sempre me interessei pela Informática e coisas relacionadas. Espero desfrutar o máximo desse curso que escolhi e que possa me profissionalizar nessa área.</p>
         </div>
         <div class="col-md-7">
           <p><img src="img/eu.jpeg" alt="" class="prof mx-auto d-block"></p>
         </div>
       </div>
     </section>
+  </div>
+  <div class="container">
     <section id="esp">
       <div class="row">
         <h1 class="text-center">Especialidades</h1>
@@ -211,26 +214,59 @@
     <section id="proj">
       <div class="row">
           <h1 class="text-center">Projetos</h1>
+          <h4 class="text-center">Projetos realizados por mim. Clique nas imagens para acessar.</h4>
       </div>
+      <br>
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 imggaleria mx-auto d-block">
+          <a href="https://gitlivreto.github.io/GitLivro/" target="blank_">
+            <img src="img/proj/site2.png" alt="" class="img-fluid mx-auto d-block prints">
+          </a>
+          <h1 class="hProj text-center">Site realizado para um projeto interdisciplinar</h1>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 imggaleria mx-auto d-block">
+          <a href="https://luisnreis.github.io/curriculoonline/" target="blank_">
+            <img src="img/proj/site2.png" alt="" class="img-fluid mx-auto d-block prints">
+          </a>
+          <h1 class="hProj text-center">Curriculo Online</h1>
         </div>
-        <div class="col-md-4">
-        </div>
-        <div class="col-md-4">
-        </div>
-        <div class="col-md-4">
-        </div>
-        <div class="col-md-4">
+        <div class="col-md-4 imggaleria mx-auto d-block">
+          <a href="https://luisnreis.github.io/SiteIW1/" target="blank_">
+            <img src="img/proj/site1.png" alt="" class="img-fluid mx-auto d-block prints">
+          </a>
+          <h1 class="hProj text-center">Primeiro site realizado com HTML e CSS puro.</h1>
         </div>
       </div>
     </section>
-    <section id="cont">
-
-    </section>
+    <br>
   </div>
+  <div class="fundo_sob container-fluid">
+    <br>
+    <section id="cont" class="row">
+      <div class="col-md-3">
+        <a href="https://github.com/luisnreis" target="blank_">
+          <img src="img/icons/github.png" alt="" class="img-fluid icon mx-auto d-block">
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="mailto:reisluis123@gmail.com" target="blank_">
+          <img src="img/icons/gmail.png" alt="" class="img-fluid icon mx-auto d-block">
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="https://www.instagram.com/reisluisz/" target="blank_">
+          <img src="img/icons/instagram.png" alt="" class="img-fluid icon mx-auto d-block">
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="https://wa.me/5511945030407" target="blank_">
+          <img src="img/icons/whatsapp.png" alt="" class="img-fluid icon mx-auto d-block">
+        </a>
+      </div>
+    </section>
+    <br>
+  </div>
+    
   <!-- Optional JavaScript; choose one of the two! -->
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -241,7 +277,7 @@
   <!-- Option 2: Separate Popper and Bootstrap JS -->
   <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script> -->
-    <footer>AAAAAA</footer>
+    <footer class="foot container-fluid text-center">Desenvolvido por Luís Reis</footer>
 </body>
 
 </html>
